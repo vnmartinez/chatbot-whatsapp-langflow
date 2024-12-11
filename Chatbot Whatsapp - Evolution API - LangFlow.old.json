@@ -1,13 +1,13 @@
 {
-  "id": "b4ca73c4-3912-4c63-874a-1c1d0ace10e2",
+  "id": "5a6012df-bcbc-4c3e-9147-99b1618b109a",
   "data": {
     "nodes": [
       {
-        "id": "Webhook-hgdHu",
+        "id": "Webhook-6h5Mh",
         "type": "genericNode",
         "position": {
-          "x": -774.8992616579394,
-          "y": 1503.8476543032548
+          "x": 126.09922848873259,
+          "y": 4.693381021248314
         },
         "data": {
           "node": {
@@ -42,7 +42,7 @@
                 "placeholder": "",
                 "show": true,
                 "name": "data",
-                "value": "{\n   \"event\":\"messages.upsert\",\n   \"instance\":\"Vinicius\",\n   \"data\":{\n      \"key\":{\n         \"remoteJid\":\"556281391799@s.whatsapp.net\",\n         \"fromMe\":true,\n         \"id\":\"3EB08BBC9B22C99E05B360\"\n      },\n      \"pushName\":\"Vinicius Martinez\",\n      \"message\":{\n         \"conversation\":\"Olá\"\n      },\n      \"messageType\":\"conversation\",\n      \"messageTimestamp\":1733799723,\n      \"owner\":\"Vinicius\",\n      \"source\":\"web\"\n   },\n   \"destination\":\"http://host.docker.internal:3333/webhook\",\n   \"date_time\":\"2024-12-10T00:02:01.917Z\",\n   \"sender\":\"556281391799@s.whatsapp.net\",\n   \"server_url\":\"http://host.docker.internal:62035\",\n   \"apikey\":\"Apikey not found\"\n}",
+                "value": "{\n   \"event\":\"messages.upsert\",\n   \"instance\":\"Vinicius\",\n   \"data\":{\n      \"key\":{\n         \"remoteJid\":\"556281391799@s.whatsapp.net\",\n         \"fromMe\":true,\n         \"id\":\"3EB08BBC9B22C99E05B360\"\n      },\n      \"pushName\":\"Vinicius Martinez\",\n      \"message\":{\n         \"conversation\":\"Olá\"\n      },\n      \"messageType\":\"conversation\",\n      \"messageTimestamp\":1733799723,\n      \"owner\":\"Vinicius\",\n      \"source\":\"web\"\n   },\n   \"destination\":\"http://host.docker.internal:3333/webhook\",\n   \"date_time\":\"2024-12-10T00:02:01.917Z\",\n   \"sender\":\"556281391799@s.whatsapp.net\",\n   \"server_url\":\"http://localhost:8080\",\n   \"apikey\":\"Apikey not found\"\n}",
                 "display_name": "Payload",
                 "advanced": false,
                 "input_types": [
@@ -93,23 +93,23 @@
             "lf_version": "1.1.1"
           },
           "type": "Webhook",
-          "id": "Webhook-hgdHu"
+          "id": "Webhook-6h5Mh"
         },
         "selected": false,
         "width": 320,
         "height": 233,
         "dragging": false,
         "positionAbsolute": {
-          "x": -774.8992616579394,
-          "y": 1503.8476543032548
+          "x": 126.09922848873259,
+          "y": 4.693381021248314
         }
       },
       {
-        "id": "CustomComponent-LMHeN",
+        "id": "CustomComponent-OjgPF",
         "type": "genericNode",
         "position": {
-          "x": 1028.2444473885143,
-          "y": 2309.7003641200654
+          "x": 1134.3436758772468,
+          "y": 291.3344343794048
         },
         "data": {
           "node": {
@@ -191,19 +191,23 @@
             "lf_version": "1.1.1"
           },
           "type": "CustomComponent",
-          "id": "CustomComponent-LMHeN"
+          "id": "CustomComponent-OjgPF"
         },
         "selected": false,
         "width": 320,
         "height": 215,
-        "dragging": false
+        "dragging": false,
+        "positionAbsolute": {
+          "x": 1134.3436758772468,
+          "y": 291.3344343794048
+        }
       },
       {
-        "id": "ParseData-BpqlQ",
+        "id": "ParseData-ifmIR",
         "type": "genericNode",
         "position": {
-          "x": 1619.1222307535027,
-          "y": 2532.025215750887
+          "x": 1725.2214592422351,
+          "y": 513.6592860102265
         },
         "data": {
           "node": {
@@ -327,18 +331,23 @@
             "lf_version": "1.1.1"
           },
           "type": "ParseData",
-          "id": "ParseData-BpqlQ"
+          "id": "ParseData-ifmIR"
         },
         "selected": false,
         "width": 320,
-        "height": 301
+        "height": 301,
+        "dragging": false,
+        "positionAbsolute": {
+          "x": 1725.2214592422351,
+          "y": 513.6592860102265
+        }
       },
       {
-        "id": "Agent-UkXb2",
+        "id": "Agent-d087Z",
         "type": "genericNode",
         "position": {
-          "x": 2911.99980622786,
-          "y": 3537.3101322105276
+          "x": 2911.76122656079,
+          "y": 359.3569429123513
         },
         "data": {
           "node": {
@@ -762,23 +771,23 @@
             "lf_version": "1.1.1"
           },
           "type": "Agent",
-          "id": "Agent-UkXb2"
+          "id": "Agent-d087Z"
         },
         "selected": false,
         "width": 320,
         "height": 473,
         "positionAbsolute": {
-          "x": 2911.99980622786,
-          "y": 3537.3101322105276
+          "x": 2911.76122656079,
+          "y": 359.3569429123513
         },
         "dragging": false
       },
       {
-        "id": "ParseData-g1m6m",
+        "id": "ParseData-vydAV",
         "type": "genericNode",
         "position": {
-          "x": 3608.7325606821373,
-          "y": 2278.5598661075237
+          "x": 3714.83178917087,
+          "y": 260.1939363668628
         },
         "data": {
           "node": {
@@ -905,19 +914,23 @@
             "lf_version": "1.1.1"
           },
           "type": "ParseData",
-          "id": "ParseData-g1m6m"
+          "id": "ParseData-vydAV"
         },
         "selected": false,
         "width": 320,
         "height": 301,
-        "dragging": false
+        "dragging": false,
+        "positionAbsolute": {
+          "x": 3714.83178917087,
+          "y": 260.1939363668628
+        }
       },
       {
-        "id": "OpenAIModel-w9Xz7",
+        "id": "OpenAIModel-VC3LM",
         "type": "genericNode",
         "position": {
-          "x": 2495.3782097892713,
-          "y": 2755.6742143964334
+          "x": 2144.8763436965314,
+          "y": 797.0493769528598
         },
         "data": {
           "node": {
@@ -943,7 +956,7 @@
                 "_input_type": "HandleInput"
               },
               "api_key": {
-                "load_from_db": true,
+                "load_from_db": false,
                 "required": false,
                 "placeholder": "",
                 "show": true,
@@ -1249,23 +1262,23 @@
             "lf_version": "1.1.1"
           },
           "type": "OpenAIModel",
-          "id": "OpenAIModel-w9Xz7"
+          "id": "OpenAIModel-VC3LM"
         },
         "selected": false,
         "width": 320,
-        "height": 671,
-        "dragging": false,
+        "height": 669,
         "positionAbsolute": {
-          "x": 2495.3782097892713,
-          "y": 2755.6742143964334
-        }
+          "x": 2144.8763436965314,
+          "y": 797.0493769528598
+        },
+        "dragging": false
       },
       {
-        "id": "APIRequest-H8xpx",
+        "id": "APIRequest-5h1E7",
         "type": "genericNode",
         "position": {
-          "x": 6370.410713765641,
-          "y": 1082.1405855516573
+          "x": 5430.173680077318,
+          "y": 61.07889788030482
         },
         "data": {
           "node": {
@@ -1282,7 +1295,7 @@
                 "name": "query_params",
                 "value": "",
                 "display_name": "Query Parameters",
-                "advanced": true,
+                "advanced": false,
                 "input_types": [
                   "Data"
                 ],
@@ -1300,20 +1313,9 @@
                 "placeholder": "",
                 "show": true,
                 "name": "body",
-                "value": {
-                  "number": "556281391799",
-                  "textMessage": {
-                    "text": "teste"
-                  },
-                  "data": {
-                    "number": "556281391799",
-                    "textMessage": {
-                      "text": "teste"
-                    }
-                  }
-                },
+                "value": {},
                 "display_name": "Body",
-                "advanced": true,
+                "advanced": false,
                 "input_types": [
                   "Data"
                 ],
@@ -1374,13 +1376,10 @@
                 "show": true,
                 "name": "headers",
                 "value": {
-                  "apiKey": "adaece27-a9aa-43f4-950e-f04ac2edd01a",
-                  "data": {
-                    "apiKey": "adaece27-a9aa-43f4-950e-f04ac2edd01a"
-                  }
+                  "apiKey": "adaece27-a9aa-43f4-950e-f04ac2edd01a"
                 },
                 "display_name": "Headers",
-                "advanced": true,
+                "advanced": false,
                 "input_types": [
                   "Data"
                 ],
@@ -1406,7 +1405,7 @@
                 "name": "method",
                 "value": "POST",
                 "display_name": "Method",
-                "advanced": true,
+                "advanced": false,
                 "dynamic": false,
                 "info": "The HTTP method to use (GET, POST, PATCH, PUT).",
                 "title_case": false,
@@ -1422,7 +1421,7 @@
                 "name": "timeout",
                 "value": 5,
                 "display_name": "Timeout",
-                "advanced": true,
+                "advanced": false,
                 "dynamic": false,
                 "info": "The timeout to use for the request.",
                 "title_case": false,
@@ -1443,7 +1442,7 @@
                   ""
                 ],
                 "display_name": "URLs",
-                "advanced": true,
+                "advanced": false,
                 "input_types": [
                   "Message"
                 ],
@@ -1501,23 +1500,23 @@
             "lf_version": "1.1.1"
           },
           "type": "APIRequest",
-          "id": "APIRequest-H8xpx"
+          "id": "APIRequest-5h1E7"
         },
         "selected": false,
         "width": 320,
-        "height": 386,
-        "dragging": false,
+        "height": 860,
         "positionAbsolute": {
-          "x": 6370.410713765641,
-          "y": 1082.1405855516573
-        }
+          "x": 5430.173680077318,
+          "y": 61.07889788030482
+        },
+        "dragging": false
       },
       {
-        "id": "CombineText-2hqx4",
+        "id": "CombineText-q7k47",
         "type": "genericNode",
         "position": {
-          "x": 3774.119235367519,
-          "y": 867.8997597225234
+          "x": 3880.2184638562517,
+          "y": -1150.4661700181373
         },
         "data": {
           "node": {
@@ -1646,18 +1645,23 @@
             "lf_version": "1.1.1"
           },
           "type": "CombineText",
-          "id": "CombineText-2hqx4"
+          "id": "CombineText-q7k47"
         },
         "selected": false,
         "width": 320,
-        "height": 425
+        "height": 425,
+        "positionAbsolute": {
+          "x": 3880.2184638562517,
+          "y": -1150.4661700181373
+        },
+        "dragging": false
       },
       {
-        "id": "FilterData-eW25A",
+        "id": "FilterData-jdRaO",
         "type": "genericNode",
         "position": {
-          "x": 1094.1792827804693,
-          "y": 925.9234502016159
+          "x": 1200.2785112692018,
+          "y": -1092.4424795390448
         },
         "data": {
           "node": {
@@ -1769,18 +1773,23 @@
             "lf_version": "1.1.1"
           },
           "type": "FilterData",
-          "id": "FilterData-eW25A"
+          "id": "FilterData-jdRaO"
         },
         "selected": false,
         "width": 320,
-        "height": 381
+        "height": 381,
+        "positionAbsolute": {
+          "x": 1200.2785112692018,
+          "y": -1092.4424795390448
+        },
+        "dragging": false
       },
       {
-        "id": "ParseData-h33V5",
+        "id": "ParseData-MV7y8",
         "type": "genericNode",
         "position": {
-          "x": 1980.3296228790846,
-          "y": 1661.8046784292126
+          "x": 2086.428851367817,
+          "y": -356.56125131144813
         },
         "data": {
           "node": {
@@ -1907,18 +1916,23 @@
             "lf_version": "1.1.1"
           },
           "type": "ParseData",
-          "id": "ParseData-h33V5"
+          "id": "ParseData-MV7y8"
         },
         "selected": false,
         "width": 320,
-        "height": 301
+        "height": 301,
+        "dragging": false,
+        "positionAbsolute": {
+          "x": 2086.428851367817,
+          "y": -356.56125131144813
+        }
       },
       {
-        "id": "ParseData-0N6tK",
+        "id": "ParseData-Tetns",
         "type": "genericNode",
         "position": {
-          "x": 1968.0213814602034,
-          "y": 1208.0319360716433
+          "x": 2074.120609948936,
+          "y": -810.3339936690174
         },
         "data": {
           "node": {
@@ -2045,18 +2059,23 @@
             "lf_version": "1.1.1"
           },
           "type": "ParseData",
-          "id": "ParseData-0N6tK"
+          "id": "ParseData-Tetns"
         },
         "selected": false,
         "width": 320,
-        "height": 301
+        "height": 301,
+        "positionAbsolute": {
+          "x": 2074.120609948936,
+          "y": -810.3339936690174
+        },
+        "dragging": false
       },
       {
-        "id": "CombineText-5sW1H",
+        "id": "CombineText-7R2h5",
         "type": "genericNode",
         "position": {
-          "x": 2462.3943521248448,
-          "y": 1268.9423689521884
+          "x": 2568.4935806135773,
+          "y": -749.4235607884723
         },
         "data": {
           "node": {
@@ -2188,18 +2207,23 @@
             "lf_version": "1.1.1"
           },
           "type": "CombineText",
-          "id": "CombineText-5sW1H"
+          "id": "CombineText-7R2h5"
         },
         "selected": false,
         "width": 320,
-        "height": 425
+        "height": 425,
+        "positionAbsolute": {
+          "x": 2568.4935806135773,
+          "y": -749.4235607884723
+        },
+        "dragging": false
       },
       {
-        "id": "ParseData-RfVN5",
+        "id": "ParseData-JzIMV",
         "type": "genericNode",
         "position": {
-          "x": 1979.2754815570306,
-          "y": 794.6534125301405
+          "x": 2085.374710045763,
+          "y": -1223.7125172105202
         },
         "data": {
           "node": {
@@ -2326,19 +2350,23 @@
             "lf_version": "1.1.1"
           },
           "type": "ParseData",
-          "id": "ParseData-RfVN5"
+          "id": "ParseData-JzIMV"
         },
         "selected": false,
         "width": 320,
         "height": 301,
+        "positionAbsolute": {
+          "x": 2085.374710045763,
+          "y": -1223.7125172105202
+        },
         "dragging": false
       },
       {
-        "id": "Agent-HpjKa",
+        "id": "Agent-kZR87",
         "type": "genericNode",
         "position": {
-          "x": 2875.6638797328824,
-          "y": 145.02605323207308
+          "x": 2972.573521381639,
+          "y": -1147.3625161504694
         },
         "data": {
           "node": {
@@ -2765,23 +2793,23 @@
             "lf_version": "1.1.1"
           },
           "type": "Agent",
-          "id": "Agent-HpjKa"
+          "id": "Agent-kZR87"
         },
         "selected": false,
         "width": 320,
         "height": 473,
         "positionAbsolute": {
-          "x": 2875.6638797328824,
-          "y": 145.02605323207308
+          "x": 2972.573521381639,
+          "y": -1147.3625161504694
         },
         "dragging": false
       },
       {
-        "id": "ParseData-yE0DZ",
+        "id": "ParseData-JPfYN",
         "type": "genericNode",
         "position": {
-          "x": 3597.5532006157823,
-          "y": 1856.754414420614
+          "x": 3703.652429104515,
+          "y": -161.6115153200466
         },
         "data": {
           "node": {
@@ -2908,18 +2936,23 @@
             "lf_version": "1.1.1"
           },
           "type": "ParseData",
-          "id": "ParseData-yE0DZ"
+          "id": "ParseData-JPfYN"
         },
         "selected": false,
         "width": 320,
-        "height": 301
+        "height": 301,
+        "dragging": false,
+        "positionAbsolute": {
+          "x": 3703.652429104515,
+          "y": -161.6115153200466
+        }
       },
       {
-        "id": "GoogleGenerativeAIModel-IkmaI",
+        "id": "GoogleGenerativeAIModel-DR6Hp",
         "type": "genericNode",
         "position": {
-          "x": 2414.0988356813946,
-          "y": -449.04810251873744
+          "x": 2469.655336550258,
+          "y": -1980.3659297406607
         },
         "data": {
           "node": {
@@ -2963,7 +2996,7 @@
                 "title_case": false
               },
               "google_api_key": {
-                "load_from_db": true,
+                "load_from_db": false,
                 "required": false,
                 "placeholder": "",
                 "show": true,
@@ -3217,28 +3250,228 @@
             "lf_version": "1.1.1"
           },
           "type": "GoogleGenerativeAIModel",
-          "id": "GoogleGenerativeAIModel-IkmaI"
+          "id": "GoogleGenerativeAIModel-DR6Hp"
         },
         "selected": false,
         "width": 320,
-        "height": 757,
-        "dragging": false,
+        "height": 755,
         "positionAbsolute": {
-          "x": 2414.0988356813946,
-          "y": -449.04810251873744
-        }
+          "x": 2469.655336550258,
+          "y": -1980.3659297406607
+        },
+        "dragging": false
       },
       {
-        "id": "CustomComponent-aJqYP",
+        "id": "ComposioAPI-l79wX",
         "type": "genericNode",
         "position": {
-          "x": 5391.499026080721,
-          "y": 1248.8177544153295
+          "x": 2169.9705858159014,
+          "y": 151.04025343960666
         },
         "data": {
           "node": {
             "template": {
               "_type": "Component",
+              "auth_link": {
+                "required": false,
+                "placeholder": "Click to authenticate",
+                "show": false,
+                "name": "auth_link",
+                "value": "",
+                "display_name": "Authentication Link",
+                "advanced": true,
+                "dynamic": true,
+                "info": "Click to authenticate with OAuth2",
+                "title_case": false,
+                "type": "link",
+                "_input_type": "LinkInput"
+              },
+              "action_names": {
+                "trace_as_metadata": true,
+                "options": [],
+                "combobox": false,
+                "list": true,
+                "required": true,
+                "placeholder": "",
+                "show": false,
+                "name": "action_names",
+                "value": [],
+                "display_name": "Actions to use",
+                "advanced": true,
+                "dynamic": true,
+                "info": "The actions to pass to agent to execute",
+                "title_case": false,
+                "type": "str",
+                "_input_type": "MultiselectInput"
+              },
+              "api_key": {
+                "load_from_db": false,
+                "required": true,
+                "placeholder": "",
+                "show": true,
+                "name": "api_key",
+                "value": "",
+                "display_name": "Composio API Key",
+                "advanced": false,
+                "input_types": [
+                  "Message"
+                ],
+                "dynamic": false,
+                "info": "Refer to https://docs.composio.dev/introduction/foundations/howtos/get_api_key",
+                "refresh_button": true,
+                "title_case": false,
+                "password": true,
+                "type": "str",
+                "_input_type": "SecretStrInput"
+              },
+              "app_credentials": {
+                "load_from_db": false,
+                "required": false,
+                "placeholder": "",
+                "show": false,
+                "name": "app_credentials",
+                "value": "",
+                "display_name": "App Credentials",
+                "advanced": true,
+                "input_types": [
+                  "Message"
+                ],
+                "dynamic": true,
+                "info": "Credentials for app authentication (API Key, Password, etc)",
+                "title_case": false,
+                "password": true,
+                "type": "str",
+                "_input_type": "SecretStrInput"
+              },
+              "app_names": {
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "options": [
+                  "AFFINITY",
+                  "AGENCYZOOM",
+                  "AIRTABLE",
+                  "ANTHROPIC",
+                  "ASANA",
+                  "ATTIO",
+                  "BAMBOOHR",
+                  "BITBUCKET",
+                  "BLACKBOARD",
+                  "BREVO",
+                  "BROWSERBASE_TOOL",
+                  "BROWSER_TOOL",
+                  "CALENDLY",
+                  "CANVA",
+                  "CANVAS",
+                  "CLICKUP",
+                  "CODEINTERPRETER",
+                  "CODE_ANALYSIS_TOOL",
+                  "CODE_FORMAT_TOOL",
+                  "COMPOSIO",
+                  "DISCORD",
+                  "DISCORDBOT",
+                  "DOCUSIGN",
+                  "DROPBOX",
+                  "DYNAMICS365",
+                  "ELEVENLABS",
+                  "EMBED_TOOL",
+                  "ENTELLIGENCE",
+                  "EXA",
+                  "FIGMA",
+                  "FILETOOL",
+                  "FIRECRAWL",
+                  "FRESHDESK",
+                  "GIT",
+                  "GITHUB",
+                  "GMAIL",
+                  "GOOGLEBIGQUERY",
+                  "GOOGLECALENDAR",
+                  "GOOGLEDOCS",
+                  "GOOGLEDRIVE",
+                  "GOOGLEMEET",
+                  "GOOGLESHEETS",
+                  "GOOGLETASKS",
+                  "GREPTILE",
+                  "HACKERNEWS",
+                  "HEYGEN",
+                  "HISTORY_FETCHER",
+                  "HUBSPOT",
+                  "IMAGE_ANALYSER",
+                  "INDUCED_AI",
+                  "JIRA",
+                  "JUNGLESCOUT",
+                  "KLAVIYO",
+                  "LINEAR",
+                  "LINKEDIN",
+                  "LISTENNOTES",
+                  "MAILCHIMP",
+                  "MATHEMATICAL",
+                  "MEM0",
+                  "MICROSOFT_CLARITY",
+                  "MICROSOFT_TEAMS",
+                  "MULTIONAI",
+                  "NASA",
+                  "NOTION",
+                  "ONE_DRIVE",
+                  "OUTLOOK",
+                  "PERPLEXITYAI",
+                  "PIPEDRIVE",
+                  "POSTHOG",
+                  "RAGTOOL",
+                  "REDDIT",
+                  "SALESFORCE",
+                  "SENDGRID",
+                  "SERPAPI",
+                  "SHELLTOOL",
+                  "SHOPIFY",
+                  "SLACK",
+                  "SLACKBOT",
+                  "SNOWFLAKE",
+                  "SPIDERTOOL",
+                  "SQLTOOL",
+                  "SUPABASE",
+                  "TAVILY",
+                  "TRELLO",
+                  "TWITTER",
+                  "WEATHERMAP",
+                  "WEBTOOL",
+                  "WORKSPACE_TOOL",
+                  "YOUSEARCH",
+                  "YOUTUBE",
+                  "ZENDESK",
+                  "ZEPTOOL"
+                ],
+                "combobox": false,
+                "required": false,
+                "placeholder": "",
+                "show": true,
+                "name": "app_names",
+                "value": "GOOGLECALENDAR",
+                "display_name": "App Name",
+                "advanced": false,
+                "dynamic": false,
+                "info": "The app name to use. Please refresh after selecting app name",
+                "refresh_button": true,
+                "title_case": false,
+                "type": "str",
+                "_input_type": "DropdownInput"
+              },
+              "auth_status": {
+                "trace_as_metadata": true,
+                "load_from_db": false,
+                "list": false,
+                "required": false,
+                "placeholder": "",
+                "show": false,
+                "name": "auth_status",
+                "value": "Not Connected",
+                "display_name": "Auth Status",
+                "advanced": true,
+                "dynamic": true,
+                "info": "Current authentication status",
+                "title_case": false,
+                "type": "str",
+                "_input_type": "StrInput"
+              },
               "code": {
                 "type": "code",
                 "required": true,
@@ -3246,7 +3479,7 @@
                 "list": false,
                 "show": true,
                 "multiline": true,
-                "value": "from langflow.custom import Component\r\nfrom langflow.inputs import MessageTextInput\r\nfrom langflow.template import Output\r\nfrom langflow.schema import Data, Message\r\n\r\n\r\nclass CurlCommandBuilder(Component):\r\n    display_name = \"Curl Command Builder\"\r\n    description = \"Builds a curl command based on inputs.\"\r\n    icon = \"terminal\"\r\n\r\n    # Define inputs\r\n    inputs = [\r\n        MessageTextInput(\r\n            name=\"url\",\r\n            display_name=\"URL\",\r\n            info=\"The base URL for the curl command.\",\r\n        ),\r\n        MessageTextInput(\r\n            name=\"number\",\r\n            display_name=\"Number\",\r\n            info=\"The phone number to send the message to.\",\r\n        ),\r\n        MessageTextInput(\r\n            name=\"text\",\r\n            display_name=\"Text\",\r\n            info=\"The text message to send.\",\r\n        ),\r\n    ]\r\n\r\n    # Define output\r\n    outputs = [\r\n        Output(display_name=\"Curl Command\", name=\"curl_command\", method=\"build_curl_command\"),\r\n    ]\r\n\r\n    def build_curl_command(self) -> Message:\r\n        # Fetch the input values\r\n        url = self.url\r\n        number = self.number\r\n        text = self.text\r\n\r\n        # Build the curl command\r\n        curl_command = (\r\n            f\"curl --location '{url}' \"\r\n            f\"--header 'apiKey: adaece27-a9aa-43f4-950e-f04ac2edd01a' \"\r\n            f\"--header 'Content-Type: application/json' \"\r\n            f\"--data '{{\\\"number\\\": \\\"{number}\\\", \\\"textMessage\\\": {{\\\"text\\\": \\\"{text}\\\"}}}}'\"\r\n        )\r\n\r\n        # Return the command as a message\r\n        return Message(text=curl_command)\r\n",
+                "value": "from collections.abc import Sequence\nfrom typing import Any\n\nfrom composio.client.collections import AppAuthScheme\nfrom composio.client.exceptions import NoItemsFound\nfrom composio_langchain import Action, App, ComposioToolSet\nfrom langchain_core.tools import Tool\nfrom loguru import logger\nfrom typing_extensions import override\n\nfrom langflow.base.langchain_utilities.model import LCToolComponent\nfrom langflow.inputs import DropdownInput, LinkInput, MessageTextInput, MultiselectInput, SecretStrInput, StrInput\n\n\nclass ComposioAPIComponent(LCToolComponent):\n    display_name: str = \"Composio Tools\"\n    description: str = \"Use Composio toolset to run actions with your agent\"\n    name = \"ComposioAPI\"\n    icon = \"Composio\"\n    documentation: str = \"https://docs.composio.dev\"\n\n    inputs = [\n        MessageTextInput(name=\"entity_id\", display_name=\"Entity ID\", value=\"default\", advanced=True),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Composio API Key\",\n            required=True,\n            refresh_button=True,\n            info=\"Refer to https://docs.composio.dev/introduction/foundations/howtos/get_api_key\",\n        ),\n        DropdownInput(\n            name=\"app_names\",\n            display_name=\"App Name\",\n            options=list(App.__annotations__),\n            value=\"\",\n            info=\"The app name to use. Please refresh after selecting app name\",\n            refresh_button=True,\n        ),\n        # Initially hidden fields for different auth types\n        SecretStrInput(\n            name=\"app_credentials\",\n            display_name=\"App Credentials\",\n            required=False,\n            dynamic=True,\n            show=False,\n            info=\"Credentials for app authentication (API Key, Password, etc)\",\n        ),\n        MessageTextInput(\n            name=\"username\",\n            display_name=\"Username\",\n            required=False,\n            dynamic=True,\n            show=False,\n            info=\"Username for Basic authentication\",\n        ),\n        LinkInput(\n            name=\"auth_link\",\n            display_name=\"Authentication Link\",\n            value=\"\",\n            info=\"Click to authenticate with OAuth2\",\n            dynamic=True,\n            show=False,\n            placeholder=\"Click to authenticate\",\n        ),\n        StrInput(\n            name=\"auth_status\",\n            display_name=\"Auth Status\",\n            value=\"Not Connected\",\n            info=\"Current authentication status\",\n            dynamic=True,\n            show=False,\n        ),\n        MultiselectInput(\n            name=\"action_names\",\n            display_name=\"Actions to use\",\n            required=True,\n            options=[],\n            value=[],\n            info=\"The actions to pass to agent to execute\",\n            dynamic=True,\n            show=False,\n        ),\n    ]\n\n    def _check_for_authorization(self, app: str) -> str:\n        \"\"\"Checks if the app is authorized.\n\n        Args:\n            app (str): The app name to check authorization for.\n\n        Returns:\n            str: The authorization status or URL.\n        \"\"\"\n        toolset = self._build_wrapper()\n        entity = toolset.client.get_entity(id=self.entity_id)\n        try:\n            # Check if user is already connected\n            entity.get_connection(app=app)\n        except NoItemsFound:\n            # Get auth scheme for the app\n            auth_scheme = self._get_auth_scheme(app)\n            return self._handle_auth_by_scheme(entity, app, auth_scheme)\n        except Exception:  # noqa: BLE001\n            logger.exception(\"Authorization error\")\n            return \"Error checking authorization\"\n        else:\n            return f\"{app} CONNECTED\"\n\n    def _get_auth_scheme(self, app_name: str) -> AppAuthScheme:\n        \"\"\"Get the primary auth scheme for an app.\n\n        Args:\n            app_name (str): The name of the app to get auth scheme for.\n\n        Returns:\n            AppAuthScheme: The auth scheme details.\n        \"\"\"\n        toolset = self._build_wrapper()\n        try:\n            return toolset.get_auth_scheme_for_app(app=app_name.lower())\n        except Exception:  # noqa: BLE001\n            logger.exception(f\"Error getting auth scheme for {app_name}\")\n            return None\n\n    def _handle_auth_by_scheme(self, entity: Any, app: str, auth_scheme: AppAuthScheme) -> str:\n        \"\"\"Handle authentication based on the auth scheme.\n\n        Args:\n            entity (Any): The entity instance.\n            app (str): The app name.\n            auth_scheme (AppAuthScheme): The auth scheme details.\n\n        Returns:\n            str: The authentication status or URL.\n        \"\"\"\n        auth_mode = auth_scheme.auth_mode\n\n        try:\n            # First check if already connected\n            entity.get_connection(app=app)\n        except NoItemsFound:\n            # If not connected, handle new connection based on auth mode\n            if auth_mode == \"API_KEY\":\n                if hasattr(self, \"app_credentials\") and self.app_credentials:\n                    try:\n                        entity.initiate_connection(\n                            app_name=app,\n                            auth_mode=\"API_KEY\",\n                            auth_config={\"api_key\": self.app_credentials},\n                            use_composio_auth=False,\n                            force_new_integration=True,\n                        )\n                    except Exception as e:  # noqa: BLE001\n                        logger.error(f\"Error connecting with API Key: {e}\")\n                        return \"Invalid API Key\"\n                    else:\n                        return f\"{app} CONNECTED\"\n                return \"Enter API Key\"\n\n            if (\n                auth_mode == \"BASIC\"\n                and hasattr(self, \"username\")\n                and hasattr(self, \"app_credentials\")\n                and self.username\n                and self.app_credentials\n            ):\n                try:\n                    entity.initiate_connection(\n                        app_name=app,\n                        auth_mode=\"BASIC\",\n                        auth_config={\"username\": self.username, \"password\": self.app_credentials},\n                        use_composio_auth=False,\n                        force_new_integration=True,\n                    )\n                except Exception as e:  # noqa: BLE001\n                    logger.error(f\"Error connecting with Basic Auth: {e}\")\n                    return \"Invalid credentials\"\n                else:\n                    return f\"{app} CONNECTED\"\n            elif auth_mode == \"BASIC\":\n                return \"Enter Username and Password\"\n\n            if auth_mode == \"OAUTH2\":\n                try:\n                    return self._initiate_default_connection(entity, app)\n                except Exception as e:  # noqa: BLE001\n                    logger.error(f\"Error initiating OAuth2: {e}\")\n                    return \"OAuth2 initialization failed\"\n\n            return \"Unsupported auth mode\"\n        except Exception as e:  # noqa: BLE001\n            logger.error(f\"Error checking connection status: {e}\")\n            return f\"Error: {e!s}\"\n        else:\n            return f\"{app} CONNECTED\"\n\n    def _initiate_default_connection(self, entity: Any, app: str) -> str:\n        connection = entity.initiate_connection(app_name=app, use_composio_auth=True, force_new_integration=True)\n        return connection.redirectUrl\n\n    def _get_connected_app_names_for_entity(self) -> list[str]:\n        toolset = self._build_wrapper()\n        connections = toolset.client.get_entity(id=self.entity_id).get_connections()\n        return list({connection.appUniqueId for connection in connections})\n\n    def _update_app_names_with_connected_status(self, build_config: dict) -> dict:\n        connected_app_names = self._get_connected_app_names_for_entity()\n\n        app_names = [\n            f\"{app_name}_CONNECTED\" for app_name in App.__annotations__ if app_name.lower() in connected_app_names\n        ]\n        non_connected_app_names = [\n            app_name for app_name in App.__annotations__ if app_name.lower() not in connected_app_names\n        ]\n        build_config[\"app_names\"][\"options\"] = app_names + non_connected_app_names\n        build_config[\"app_names\"][\"value\"] = app_names[0] if app_names else \"\"\n        return build_config\n\n    def _get_normalized_app_name(self) -> str:\n        return self.app_names.replace(\"_CONNECTED\", \"\").replace(\"_connected\", \"\")\n\n    @override\n    def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None) -> dict:\n        # First, ensure all dynamic fields are hidden by default\n        dynamic_fields = [\"app_credentials\", \"username\", \"auth_link\", \"auth_status\", \"action_names\"]\n        for field in dynamic_fields:\n            if field in build_config:\n                build_config[field][\"show\"] = False\n                build_config[field][\"advanced\"] = True  # Hide from main view\n\n        if field_name == \"api_key\":\n            if hasattr(self, \"api_key\") and self.api_key != \"\":\n                build_config = self._update_app_names_with_connected_status(build_config)\n                # Show app_names when API key is provided\n                build_config[\"app_names\"][\"show\"] = True\n                build_config[\"app_names\"][\"advanced\"] = False\n            return build_config\n\n        if field_name in {\"app_names\"} and hasattr(self, \"api_key\") and self.api_key != \"\":\n            app_name = self._get_normalized_app_name()\n\n            try:\n                toolset = self._build_wrapper()\n                entity = toolset.client.get_entity(id=self.entity_id)\n\n                # Always show auth_status when app is selected\n                build_config[\"auth_status\"][\"show\"] = True\n                build_config[\"auth_status\"][\"advanced\"] = False\n\n                try:\n                    # Check if already connected\n                    entity.get_connection(app=app_name)\n                    build_config[\"auth_status\"][\"value\"] = f\"{app_name} CONNECTED\"\n\n                    # Show action selection for connected apps\n                    build_config[\"action_names\"][\"show\"] = True\n                    build_config[\"action_names\"][\"advanced\"] = False\n\n                except NoItemsFound:\n                    # Get auth scheme and show relevant fields\n                    auth_scheme = self._get_auth_scheme(app_name)\n                    auth_mode = auth_scheme.auth_mode\n                    logger.info(f\"Auth mode for {app_name}: {auth_mode}\")\n\n                    if auth_mode == \"API_KEY\":\n                        build_config[\"app_credentials\"][\"show\"] = True\n                        build_config[\"app_credentials\"][\"advanced\"] = False\n                        build_config[\"app_credentials\"][\"display_name\"] = \"API Key\"\n                        build_config[\"auth_status\"][\"value\"] = \"Enter API Key\"\n\n                    elif auth_mode == \"BASIC\":\n                        build_config[\"username\"][\"show\"] = True\n                        build_config[\"username\"][\"advanced\"] = False\n                        build_config[\"app_credentials\"][\"show\"] = True\n                        build_config[\"app_credentials\"][\"advanced\"] = False\n                        build_config[\"app_credentials\"][\"display_name\"] = \"Password\"\n                        build_config[\"auth_status\"][\"value\"] = \"Enter Username and Password\"\n\n                    elif auth_mode == \"OAUTH2\":\n                        build_config[\"auth_link\"][\"show\"] = True\n                        build_config[\"auth_link\"][\"advanced\"] = False\n                        auth_url = self._initiate_default_connection(entity, app_name)\n                        build_config[\"auth_link\"][\"value\"] = auth_url\n                        build_config[\"auth_status\"][\"value\"] = \"Click link to authenticate\"\n\n                    else:\n                        build_config[\"auth_status\"][\"value\"] = \"Unsupported auth mode\"\n\n                # Update action names if connected\n                if build_config[\"auth_status\"][\"value\"] == f\"{app_name} CONNECTED\":\n                    all_action_names = list(Action.__annotations__)\n                    app_action_names = [\n                        action_name\n                        for action_name in all_action_names\n                        if action_name.lower().startswith(app_name.lower() + \"_\")\n                    ]\n                    build_config[\"action_names\"][\"options\"] = app_action_names\n                    build_config[\"action_names\"][\"value\"] = [app_action_names[0]] if app_action_names else [\"\"]\n\n            except Exception as e:  # noqa: BLE001\n                logger.error(f\"Error checking auth status: {e}, app: {app_name}\")\n                build_config[\"auth_status\"][\"value\"] = f\"Error: {e!s}\"\n\n        return build_config\n\n    def build_tool(self) -> Sequence[Tool]:\n        composio_toolset = self._build_wrapper()\n        return composio_toolset.get_tools(actions=self.action_names)\n\n    def _build_wrapper(self) -> ComposioToolSet:\n        \"\"\"Build the Composio toolset wrapper.\n\n        Returns:\n            ComposioToolSet: The initialized toolset.\n\n        Raises:\n            ValueError: If the API key is not found or invalid.\n        \"\"\"\n        try:\n            if not self.api_key:\n                msg = \"Composio API Key is required\"\n                raise ValueError(msg)\n            return ComposioToolSet(api_key=self.api_key)\n        except ValueError as e:\n            logger.error(f\"Error building Composio wrapper: {e}\")\n            msg = \"Please provide a valid Composio API Key in the component settings\"\n            raise ValueError(msg) from e\n",
                 "fileTypes": [],
                 "file_path": "",
                 "password": false,
@@ -3257,7 +3490,7 @@
                 "load_from_db": false,
                 "title_case": false
               },
-              "number": {
+              "entity_id": {
                 "tool_mode": false,
                 "trace_as_input": true,
                 "trace_as_metadata": true,
@@ -3266,20 +3499,20 @@
                 "required": false,
                 "placeholder": "",
                 "show": true,
-                "name": "number",
-                "value": "",
-                "display_name": "Number",
-                "advanced": false,
+                "name": "entity_id",
+                "value": "default",
+                "display_name": "Entity ID",
+                "advanced": true,
                 "input_types": [
                   "Message"
                 ],
                 "dynamic": false,
-                "info": "The phone number to send the message to.",
+                "info": "",
                 "title_case": false,
                 "type": "str",
                 "_input_type": "MessageTextInput"
               },
-              "text": {
+              "username": {
                 "tool_mode": false,
                 "trace_as_input": true,
                 "trace_as_metadata": true,
@@ -3287,50 +3520,29 @@
                 "list": false,
                 "required": false,
                 "placeholder": "",
-                "show": true,
-                "name": "text",
+                "show": false,
+                "name": "username",
                 "value": "",
-                "display_name": "Text",
-                "advanced": false,
+                "display_name": "Username",
+                "advanced": true,
                 "input_types": [
                   "Message"
                 ],
-                "dynamic": false,
-                "info": "The text message to send.",
-                "title_case": false,
-                "type": "str",
-                "_input_type": "MessageTextInput"
-              },
-              "url": {
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "load_from_db": false,
-                "list": false,
-                "required": false,
-                "placeholder": "",
-                "show": true,
-                "name": "url",
-                "value": "",
-                "display_name": "URL",
-                "advanced": false,
-                "input_types": [
-                  "Message"
-                ],
-                "dynamic": false,
-                "info": "The base URL for the curl command.",
+                "dynamic": true,
+                "info": "Username for Basic authentication",
                 "title_case": false,
                 "type": "str",
                 "_input_type": "MessageTextInput"
               }
             },
-            "description": "Builds a curl command based on inputs.",
-            "icon": "terminal",
+            "description": "Use Composio toolset to run actions with your agent",
+            "icon": "Composio",
             "base_classes": [
-              "Message"
+              "Data",
+              "Tool"
             ],
-            "display_name": "Custom Component",
-            "documentation": "",
+            "display_name": "Composio Tools",
+            "documentation": "https://docs.composio.dev",
             "custom_fields": {},
             "output_types": [],
             "pinned": false,
@@ -3339,52 +3551,77 @@
             "outputs": [
               {
                 "types": [
-                  "Message"
+                  "Data"
                 ],
-                "selected": "Message",
-                "name": "curl_command",
-                "display_name": "Curl Command",
-                "method": "build_curl_command",
+                "selected": "Data",
+                "name": "api_run_model",
+                "hidden": null,
+                "display_name": "Data",
+                "method": "run_model",
                 "value": "__UNDEFINED__",
-                "cache": true
+                "cache": true,
+                "required_inputs": []
+              },
+              {
+                "types": [
+                  "Tool"
+                ],
+                "selected": "Tool",
+                "name": "api_build_tool",
+                "hidden": null,
+                "display_name": "Tool",
+                "method": "build_tool",
+                "value": "__UNDEFINED__",
+                "cache": true,
+                "required_inputs": [
+                  "action_names",
+                  "api_key"
+                ]
               }
             ],
             "field_order": [
-              "url",
-              "number",
-              "text"
+              "entity_id",
+              "api_key",
+              "app_names",
+              "app_credentials",
+              "username",
+              "auth_link",
+              "auth_status",
+              "action_names"
             ],
             "beta": false,
             "legacy": false,
-            "edited": true,
+            "edited": false,
             "metadata": {},
             "tool_mode": false,
+            "category": "composio",
+            "key": "ComposioAPI",
+            "score": 0.0000025911107559075892,
             "lf_version": "1.1.1"
           },
-          "type": "CustomComponent",
-          "id": "CustomComponent-aJqYP"
+          "type": "ComposioAPI",
+          "id": "ComposioAPI-l79wX"
         },
         "selected": false,
         "width": 320,
-        "height": 405,
+        "height": 387,
         "positionAbsolute": {
-          "x": 5391.499026080721,
-          "y": 1248.8177544153295
+          "x": 2169.9705858159014,
+          "y": 151.04025343960666
         },
         "dragging": false
       }
     ],
     "edges": [
       {
-        "source": "Webhook-hgdHu",
-        "target": "CustomComponent-LMHeN",
-        "sourceHandle": "{œdataTypeœ:œWebhookœ,œidœ:œWebhook-hgdHuœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}",
-        "targetHandle": "{œfieldNameœ:œwebhook_dataœ,œidœ:œCustomComponent-LMHeNœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "id": "reactflow__edge-Webhook-hgdHu{œdataTypeœ:œWebhookœ,œidœ:œWebhook-hgdHuœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}-CustomComponent-LMHeN{œfieldNameœ:œwebhook_dataœ,œidœ:œCustomComponent-LMHeNœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "source": "Webhook-6h5Mh",
+        "sourceHandle": "{œdataTypeœ:œWebhookœ,œidœ:œWebhook-6h5Mhœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-OjgPF",
+        "targetHandle": "{œfieldNameœ:œwebhook_dataœ,œidœ:œCustomComponent-OjgPFœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "data": {
           "targetHandle": {
             "fieldName": "webhook_data",
-            "id": "CustomComponent-LMHeN",
+            "id": "CustomComponent-OjgPF",
             "inputTypes": [
               "Data"
             ],
@@ -3392,27 +3629,27 @@
           },
           "sourceHandle": {
             "dataType": "Webhook",
-            "id": "Webhook-hgdHu",
+            "id": "Webhook-6h5Mh",
             "name": "output_data",
             "output_types": [
               "Data"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-Webhook-6h5Mh{œdataTypeœ:œWebhookœ,œidœ:œWebhook-6h5Mhœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}-CustomComponent-OjgPF{œfieldNameœ:œwebhook_dataœ,œidœ:œCustomComponent-OjgPFœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "CustomComponent-LMHeN",
-        "target": "ParseData-BpqlQ",
-        "sourceHandle": "{œdataTypeœ:œCustomComponentœ,œidœ:œCustomComponent-LMHeNœ,œnameœ:œconversation_textœ,œoutput_typesœ:[œMessageœ]}",
-        "targetHandle": "{œfieldNameœ:œtemplateœ,œidœ:œParseData-BpqlQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-CustomComponent-LMHeN{œdataTypeœ:œCustomComponentœ,œidœ:œCustomComponent-LMHeNœ,œnameœ:œconversation_textœ,œoutput_typesœ:[œMessageœ]}-ParseData-BpqlQ{œfieldNameœ:œtemplateœ,œidœ:œParseData-BpqlQœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "CustomComponent-OjgPF",
+        "sourceHandle": "{œdataTypeœ:œCustomComponentœ,œidœ:œCustomComponent-OjgPFœ,œnameœ:œconversation_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ParseData-ifmIR",
+        "targetHandle": "{œfieldNameœ:œtemplateœ,œidœ:œParseData-ifmIRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
             "fieldName": "template",
-            "id": "ParseData-BpqlQ",
+            "id": "ParseData-ifmIR",
             "inputTypes": [
               "Message"
             ],
@@ -3420,27 +3657,27 @@
           },
           "sourceHandle": {
             "dataType": "CustomComponent",
-            "id": "CustomComponent-LMHeN",
+            "id": "CustomComponent-OjgPF",
             "name": "conversation_text",
             "output_types": [
               "Message"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-CustomComponent-OjgPF{œdataTypeœ:œCustomComponentœ,œidœ:œCustomComponent-OjgPFœ,œnameœ:œconversation_textœ,œoutput_typesœ:[œMessageœ]}-ParseData-ifmIR{œfieldNameœ:œtemplateœ,œidœ:œParseData-ifmIRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "ParseData-BpqlQ",
-        "target": "Agent-UkXb2",
-        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-BpqlQœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-UkXb2œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-ParseData-BpqlQ{œdataTypeœ:œParseDataœ,œidœ:œParseData-BpqlQœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Agent-UkXb2{œfieldNameœ:œinput_valueœ,œidœ:œAgent-UkXb2œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "ParseData-ifmIR",
+        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-ifmIRœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-d087Z",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-d087Zœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-UkXb2",
+            "id": "Agent-d087Z",
             "inputTypes": [
               "Message"
             ],
@@ -3448,27 +3685,27 @@
           },
           "sourceHandle": {
             "dataType": "ParseData",
-            "id": "ParseData-BpqlQ",
+            "id": "ParseData-ifmIR",
             "name": "text",
             "output_types": [
               "Message"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-ParseData-ifmIR{œdataTypeœ:œParseDataœ,œidœ:œParseData-ifmIRœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Agent-d087Z{œfieldNameœ:œinput_valueœ,œidœ:œAgent-d087Zœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "Agent-UkXb2",
-        "target": "ParseData-g1m6m",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-UkXb2œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "targetHandle": "{œfieldNameœ:œtemplateœ,œidœ:œParseData-g1m6mœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-Agent-UkXb2{œdataTypeœ:œAgentœ,œidœ:œAgent-UkXb2œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ParseData-g1m6m{œfieldNameœ:œtemplateœ,œidœ:œParseData-g1m6mœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "Agent-d087Z",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-d087Zœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ParseData-vydAV",
+        "targetHandle": "{œfieldNameœ:œtemplateœ,œidœ:œParseData-vydAVœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
             "fieldName": "template",
-            "id": "ParseData-g1m6m",
+            "id": "ParseData-vydAV",
             "inputTypes": [
               "Message"
             ],
@@ -3476,27 +3713,27 @@
           },
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-UkXb2",
+            "id": "Agent-d087Z",
             "name": "response",
             "output_types": [
               "Message"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-Agent-d087Z{œdataTypeœ:œAgentœ,œidœ:œAgent-d087Zœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ParseData-vydAV{œfieldNameœ:œtemplateœ,œidœ:œParseData-vydAVœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "OpenAIModel-w9Xz7",
-        "target": "Agent-UkXb2",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-w9Xz7œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "targetHandle": "{œfieldNameœ:œagent_llmœ,œidœ:œAgent-UkXb2œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-OpenAIModel-w9Xz7{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-w9Xz7œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-UkXb2{œfieldNameœ:œagent_llmœ,œidœ:œAgent-UkXb2œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
+        "source": "OpenAIModel-VC3LM",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-VC3LMœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-d087Z",
+        "targetHandle": "{œfieldNameœ:œagent_llmœ,œidœ:œAgent-d087Zœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
             "fieldName": "agent_llm",
-            "id": "Agent-UkXb2",
+            "id": "Agent-d087Z",
             "inputTypes": [
               "LanguageModel"
             ],
@@ -3504,27 +3741,27 @@
           },
           "sourceHandle": {
             "dataType": "OpenAIModel",
-            "id": "OpenAIModel-w9Xz7",
+            "id": "OpenAIModel-VC3LM",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-OpenAIModel-VC3LM{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-VC3LMœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-d087Z{œfieldNameœ:œagent_llmœ,œidœ:œAgent-d087Zœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "Webhook-hgdHu",
-        "target": "FilterData-eW25A",
-        "sourceHandle": "{œdataTypeœ:œWebhookœ,œidœ:œWebhook-hgdHuœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}",
-        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œFilterData-eW25Aœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "id": "reactflow__edge-Webhook-hgdHu{œdataTypeœ:œWebhookœ,œidœ:œWebhook-hgdHuœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}-FilterData-eW25A{œfieldNameœ:œdataœ,œidœ:œFilterData-eW25Aœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "source": "Webhook-6h5Mh",
+        "sourceHandle": "{œdataTypeœ:œWebhookœ,œidœ:œWebhook-6h5Mhœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "FilterData-jdRaO",
+        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œFilterData-jdRaOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "data": {
           "targetHandle": {
             "fieldName": "data",
-            "id": "FilterData-eW25A",
+            "id": "FilterData-jdRaO",
             "inputTypes": [
               "Data"
             ],
@@ -3532,27 +3769,27 @@
           },
           "sourceHandle": {
             "dataType": "Webhook",
-            "id": "Webhook-hgdHu",
+            "id": "Webhook-6h5Mh",
             "name": "output_data",
             "output_types": [
               "Data"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-Webhook-6h5Mh{œdataTypeœ:œWebhookœ,œidœ:œWebhook-6h5Mhœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}-FilterData-jdRaO{œfieldNameœ:œdataœ,œidœ:œFilterData-jdRaOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "FilterData-eW25A",
-        "target": "ParseData-h33V5",
-        "sourceHandle": "{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-eW25Aœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}",
-        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-h33V5œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "id": "reactflow__edge-FilterData-eW25A{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-eW25Aœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}-ParseData-h33V5{œfieldNameœ:œdataœ,œidœ:œParseData-h33V5œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "source": "FilterData-jdRaO",
+        "sourceHandle": "{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-jdRaOœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParseData-MV7y8",
+        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-MV7y8œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "data": {
           "targetHandle": {
             "fieldName": "data",
-            "id": "ParseData-h33V5",
+            "id": "ParseData-MV7y8",
             "inputTypes": [
               "Data"
             ],
@@ -3560,27 +3797,27 @@
           },
           "sourceHandle": {
             "dataType": "FilterData",
-            "id": "FilterData-eW25A",
+            "id": "FilterData-jdRaO",
             "name": "filtered_data",
             "output_types": [
               "Data"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-FilterData-jdRaO{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-jdRaOœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}-ParseData-MV7y8{œfieldNameœ:œdataœ,œidœ:œParseData-MV7y8œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "ParseData-h33V5",
-        "target": "CombineText-2hqx4",
-        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-h33V5œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "targetHandle": "{œfieldNameœ:œtext2œ,œidœ:œCombineText-2hqx4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-ParseData-h33V5{œdataTypeœ:œParseDataœ,œidœ:œParseData-h33V5œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-CombineText-2hqx4{œfieldNameœ:œtext2œ,œidœ:œCombineText-2hqx4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "ParseData-MV7y8",
+        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-MV7y8œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CombineText-q7k47",
+        "targetHandle": "{œfieldNameœ:œtext2œ,œidœ:œCombineText-q7k47œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
             "fieldName": "text2",
-            "id": "CombineText-2hqx4",
+            "id": "CombineText-q7k47",
             "inputTypes": [
               "Message"
             ],
@@ -3588,83 +3825,27 @@
           },
           "sourceHandle": {
             "dataType": "ParseData",
-            "id": "ParseData-h33V5",
+            "id": "ParseData-MV7y8",
             "name": "text",
             "output_types": [
               "Message"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-ParseData-MV7y8{œdataTypeœ:œParseDataœ,œidœ:œParseData-MV7y8œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-CombineText-q7k47{œfieldNameœ:œtext2œ,œidœ:œCombineText-q7k47œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "FilterData-eW25A",
-        "target": "ParseData-0N6tK",
-        "sourceHandle": "{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-eW25Aœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}",
-        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-0N6tKœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "id": "reactflow__edge-FilterData-eW25A{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-eW25Aœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}-ParseData-0N6tK{œfieldNameœ:œdataœ,œidœ:œParseData-0N6tKœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "source": "CombineText-q7k47",
+        "sourceHandle": "{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-q7k47œ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "APIRequest-5h1E7",
+        "targetHandle": "{œfieldNameœ:œurlsœ,œidœ:œAPIRequest-5h1E7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
-            "fieldName": "data",
-            "id": "ParseData-0N6tK",
-            "inputTypes": [
-              "Data"
-            ],
-            "type": "other"
-          },
-          "sourceHandle": {
-            "dataType": "FilterData",
-            "id": "FilterData-eW25A",
-            "name": "filtered_data",
-            "output_types": [
-              "Data"
-            ]
-          }
-        },
-        "selected": false,
-        "animated": false,
-        "className": ""
-      },
-      {
-        "source": "ParseData-0N6tK",
-        "target": "CombineText-5sW1H",
-        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-0N6tKœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "targetHandle": "{œfieldNameœ:œtext1œ,œidœ:œCombineText-5sW1Hœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-ParseData-0N6tK{œdataTypeœ:œParseDataœ,œidœ:œParseData-0N6tKœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-CombineText-5sW1H{œfieldNameœ:œtext1œ,œidœ:œCombineText-5sW1Hœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "text1",
-            "id": "CombineText-5sW1H",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "ParseData",
-            "id": "ParseData-0N6tK",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "selected": false,
-        "animated": false,
-        "className": ""
-      },
-      {
-        "source": "CombineText-5sW1H",
-        "target": "CombineText-2hqx4",
-        "sourceHandle": "{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-5sW1Hœ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}",
-        "targetHandle": "{œfieldNameœ:œtext1œ,œidœ:œCombineText-2hqx4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-CombineText-5sW1H{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-5sW1Hœ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}-CombineText-2hqx4{œfieldNameœ:œtext1œ,œidœ:œCombineText-2hqx4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "text1",
-            "id": "CombineText-2hqx4",
+            "fieldName": "urls",
+            "id": "APIRequest-5h1E7",
             "inputTypes": [
               "Message"
             ],
@@ -3672,27 +3853,27 @@
           },
           "sourceHandle": {
             "dataType": "CombineText",
-            "id": "CombineText-5sW1H",
+            "id": "CombineText-q7k47",
             "name": "combined_text",
             "output_types": [
               "Message"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-CombineText-q7k47{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-q7k47œ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}-APIRequest-5h1E7{œfieldNameœ:œurlsœ,œidœ:œAPIRequest-5h1E7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "FilterData-eW25A",
-        "target": "ParseData-RfVN5",
-        "sourceHandle": "{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-eW25Aœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}",
-        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-RfVN5œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "id": "reactflow__edge-FilterData-eW25A{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-eW25Aœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}-ParseData-RfVN5{œfieldNameœ:œdataœ,œidœ:œParseData-RfVN5œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "source": "FilterData-jdRaO",
+        "sourceHandle": "{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-jdRaOœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParseData-Tetns",
+        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-Tetnsœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "data": {
           "targetHandle": {
             "fieldName": "data",
-            "id": "ParseData-RfVN5",
+            "id": "ParseData-Tetns",
             "inputTypes": [
               "Data"
             ],
@@ -3700,27 +3881,27 @@
           },
           "sourceHandle": {
             "dataType": "FilterData",
-            "id": "FilterData-eW25A",
+            "id": "FilterData-jdRaO",
             "name": "filtered_data",
             "output_types": [
               "Data"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-FilterData-jdRaO{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-jdRaOœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}-ParseData-Tetns{œfieldNameœ:œdataœ,œidœ:œParseData-Tetnsœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "ParseData-RfVN5",
-        "target": "Agent-HpjKa",
-        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-RfVN5œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-HpjKaœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-ParseData-RfVN5{œdataTypeœ:œParseDataœ,œidœ:œParseData-RfVN5œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Agent-HpjKa{œfieldNameœ:œinput_valueœ,œidœ:œAgent-HpjKaœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "ParseData-Tetns",
+        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-Tetnsœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CombineText-7R2h5",
+        "targetHandle": "{œfieldNameœ:œtext1œ,œidœ:œCombineText-7R2h5œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
-            "fieldName": "input_value",
-            "id": "Agent-HpjKa",
+            "fieldName": "text1",
+            "id": "CombineText-7R2h5",
             "inputTypes": [
               "Message"
             ],
@@ -3728,27 +3909,111 @@
           },
           "sourceHandle": {
             "dataType": "ParseData",
-            "id": "ParseData-RfVN5",
+            "id": "ParseData-Tetns",
             "name": "text",
             "output_types": [
               "Message"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-ParseData-Tetns{œdataTypeœ:œParseDataœ,œidœ:œParseData-Tetnsœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-CombineText-7R2h5{œfieldNameœ:œtext1œ,œidœ:œCombineText-7R2h5œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "Agent-HpjKa",
-        "target": "ParseData-yE0DZ",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-HpjKaœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "targetHandle": "{œfieldNameœ:œtemplateœ,œidœ:œParseData-yE0DZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-Agent-HpjKa{œdataTypeœ:œAgentœ,œidœ:œAgent-HpjKaœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ParseData-yE0DZ{œfieldNameœ:œtemplateœ,œidœ:œParseData-yE0DZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "source": "CombineText-7R2h5",
+        "sourceHandle": "{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-7R2h5œ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CombineText-q7k47",
+        "targetHandle": "{œfieldNameœ:œtext1œ,œidœ:œCombineText-q7k47œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "data": {
+          "targetHandle": {
+            "fieldName": "text1",
+            "id": "CombineText-q7k47",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          },
+          "sourceHandle": {
+            "dataType": "CombineText",
+            "id": "CombineText-7R2h5",
+            "name": "combined_text",
+            "output_types": [
+              "Message"
+            ]
+          }
+        },
+        "id": "reactflow__edge-CombineText-7R2h5{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-7R2h5œ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}-CombineText-q7k47{œfieldNameœ:œtext1œ,œidœ:œCombineText-q7k47œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "animated": false,
+        "className": "",
+        "selected": false
+      },
+      {
+        "source": "FilterData-jdRaO",
+        "sourceHandle": "{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-jdRaOœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParseData-JzIMV",
+        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-JzIMVœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "data": {
+          "targetHandle": {
+            "fieldName": "data",
+            "id": "ParseData-JzIMV",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          },
+          "sourceHandle": {
+            "dataType": "FilterData",
+            "id": "FilterData-jdRaO",
+            "name": "filtered_data",
+            "output_types": [
+              "Data"
+            ]
+          }
+        },
+        "id": "reactflow__edge-FilterData-jdRaO{œdataTypeœ:œFilterDataœ,œidœ:œFilterData-jdRaOœ,œnameœ:œfiltered_dataœ,œoutput_typesœ:[œDataœ]}-ParseData-JzIMV{œfieldNameœ:œdataœ,œidœ:œParseData-JzIMVœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "animated": false,
+        "className": "",
+        "selected": false
+      },
+      {
+        "source": "ParseData-JzIMV",
+        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-JzIMVœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-kZR87",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-kZR87œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "data": {
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "Agent-kZR87",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          },
+          "sourceHandle": {
+            "dataType": "ParseData",
+            "id": "ParseData-JzIMV",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          }
+        },
+        "id": "reactflow__edge-ParseData-JzIMV{œdataTypeœ:œParseDataœ,œidœ:œParseData-JzIMVœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Agent-kZR87{œfieldNameœ:œinput_valueœ,œidœ:œAgent-kZR87œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "animated": false,
+        "className": "",
+        "selected": false
+      },
+      {
+        "source": "Agent-kZR87",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-kZR87œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ParseData-JPfYN",
+        "targetHandle": "{œfieldNameœ:œtemplateœ,œidœ:œParseData-JPfYNœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
             "fieldName": "template",
-            "id": "ParseData-yE0DZ",
+            "id": "ParseData-JPfYN",
             "inputTypes": [
               "Message"
             ],
@@ -3756,27 +4021,27 @@
           },
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-HpjKa",
+            "id": "Agent-kZR87",
             "name": "response",
             "output_types": [
               "Message"
             ]
           }
         },
-        "selected": false,
+        "id": "reactflow__edge-Agent-kZR87{œdataTypeœ:œAgentœ,œidœ:œAgent-kZR87œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ParseData-JPfYN{œfieldNameœ:œtemplateœ,œidœ:œParseData-JPfYNœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
-        "className": ""
+        "className": "",
+        "selected": false
       },
       {
-        "source": "GoogleGenerativeAIModel-IkmaI",
-        "target": "Agent-HpjKa",
-        "sourceHandle": "{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-IkmaIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "targetHandle": "{œfieldNameœ:œagent_llmœ,œidœ:œAgent-HpjKaœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
-        "id": "reactflow__edge-GoogleGenerativeAIModel-IkmaI{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-IkmaIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-HpjKa{œfieldNameœ:œagent_llmœ,œidœ:œAgent-HpjKaœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
+        "source": "GoogleGenerativeAIModel-DR6Hp",
+        "sourceHandle": "{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-DR6Hpœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-kZR87",
+        "targetHandle": "{œfieldNameœ:œagent_llmœ,œidœ:œAgent-kZR87œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
         "data": {
           "targetHandle": {
             "fieldName": "agent_llm",
-            "id": "Agent-HpjKa",
+            "id": "Agent-kZR87",
             "inputTypes": [
               "LanguageModel"
             ],
@@ -3784,132 +4049,57 @@
           },
           "sourceHandle": {
             "dataType": "GoogleGenerativeAIModel",
-            "id": "GoogleGenerativeAIModel-IkmaI",
+            "id": "GoogleGenerativeAIModel-DR6Hp",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
             ]
           }
         },
+        "id": "reactflow__edge-GoogleGenerativeAIModel-DR6Hp{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-DR6Hpœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-kZR87{œfieldNameœ:œagent_llmœ,œidœ:œAgent-kZR87œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
+        "animated": false,
+        "className": "",
+        "selected": false
+      },
+      {
+        "source": "ComposioAPI-l79wX",
+        "sourceHandle": "{œdataTypeœ:œComposioAPIœ,œidœ:œComposioAPI-l79wXœ,œnameœ:œapi_build_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-d087Z",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-d087Zœ,œinputTypesœ:[œToolœ,œBaseToolœ,œStructuredToolœ],œtypeœ:œotherœ}",
+        "data": {
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-d087Z",
+            "inputTypes": [
+              "Tool",
+              "BaseTool",
+              "StructuredTool"
+            ],
+            "type": "other"
+          },
+          "sourceHandle": {
+            "dataType": "ComposioAPI",
+            "id": "ComposioAPI-l79wX",
+            "name": "api_build_tool",
+            "output_types": [
+              "Tool"
+            ]
+          }
+        },
+        "id": "reactflow__edge-ComposioAPI-l79wX{œdataTypeœ:œComposioAPIœ,œidœ:œComposioAPI-l79wXœ,œnameœ:œapi_build_toolœ,œoutput_typesœ:[œToolœ]}-Agent-d087Z{œfieldNameœ:œtoolsœ,œidœ:œAgent-d087Zœ,œinputTypesœ:[œToolœ,œBaseToolœ,œStructuredToolœ],œtypeœ:œotherœ}",
         "selected": false,
         "animated": false,
         "className": ""
-      },
-      {
-        "source": "CombineText-2hqx4",
-        "sourceHandle": "{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-2hqx4œ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "CustomComponent-aJqYP",
-        "targetHandle": "{œfieldNameœ:œurlœ,œidœ:œCustomComponent-aJqYPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "url",
-            "id": "CustomComponent-aJqYP",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "CombineText",
-            "id": "CombineText-2hqx4",
-            "name": "combined_text",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "reactflow__edge-CombineText-2hqx4{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-2hqx4œ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-aJqYP{œfieldNameœ:œurlœ,œidœ:œCustomComponent-aJqYPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": ""
-      },
-      {
-        "source": "ParseData-yE0DZ",
-        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-yE0DZœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "CustomComponent-aJqYP",
-        "targetHandle": "{œfieldNameœ:œnumberœ,œidœ:œCustomComponent-aJqYPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "number",
-            "id": "CustomComponent-aJqYP",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "ParseData",
-            "id": "ParseData-yE0DZ",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "reactflow__edge-ParseData-yE0DZ{œdataTypeœ:œParseDataœ,œidœ:œParseData-yE0DZœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-aJqYP{œfieldNameœ:œnumberœ,œidœ:œCustomComponent-aJqYPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": ""
-      },
-      {
-        "source": "ParseData-g1m6m",
-        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-g1m6mœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "CustomComponent-aJqYP",
-        "targetHandle": "{œfieldNameœ:œtextœ,œidœ:œCustomComponent-aJqYPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "text",
-            "id": "CustomComponent-aJqYP",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "ParseData",
-            "id": "ParseData-g1m6m",
-            "name": "text",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "reactflow__edge-ParseData-g1m6m{œdataTypeœ:œParseDataœ,œidœ:œParseData-g1m6mœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-aJqYP{œfieldNameœ:œtextœ,œidœ:œCustomComponent-aJqYPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": ""
-      },
-      {
-        "source": "CustomComponent-aJqYP",
-        "sourceHandle": "{œdataTypeœ:œCustomComponentœ,œidœ:œCustomComponent-aJqYPœ,œnameœ:œcurl_commandœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "APIRequest-H8xpx",
-        "targetHandle": "{œfieldNameœ:œcurlœ,œidœ:œAPIRequest-H8xpxœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "data": {
-          "targetHandle": {
-            "fieldName": "curl",
-            "id": "APIRequest-H8xpx",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          },
-          "sourceHandle": {
-            "dataType": "CustomComponent",
-            "id": "CustomComponent-aJqYP",
-            "name": "curl_command",
-            "output_types": [
-              "Message"
-            ]
-          }
-        },
-        "id": "reactflow__edge-CustomComponent-aJqYP{œdataTypeœ:œCustomComponentœ,œidœ:œCustomComponent-aJqYPœ,œnameœ:œcurl_commandœ,œoutput_typesœ:[œMessageœ]}-APIRequest-H8xpx{œfieldNameœ:œcurlœ,œidœ:œAPIRequest-H8xpxœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       }
     ],
     "viewport": {
-      "x": -4997.871241849258,
-      "y": -941.1224355618676,
-      "zoom": 0.9505226466242269
+      "x": -3415.7517114425837,
+      "y": 45.38734575767759,
+      "zoom": 0.9427091023192307
     }
   },
-  "description": "",
-  "name": "Chatbot Whatsapp - Evolution API - LangFlow.json",
+  "description": "Chatbot de clinica odontológica ",
+  "name": "Chatbot Whatsapp - Evolution API - LangFlow",
   "last_tested_version": "1.1.1",
   "endpoint_name": null,
   "is_component": false
